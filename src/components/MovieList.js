@@ -11,7 +11,7 @@ function MovieList() {
         const res = await fetch(serUrl);
         const jsonRes = await res.json()
         setMoviesArr(jsonRes);
-        // console.log("response " +jsonRes)
+        console.log("response " +jsonRes)
     }
     useEffect(() => {
         senReq();
