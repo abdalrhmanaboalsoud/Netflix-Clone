@@ -9,7 +9,7 @@ function Home() {
         <>
             
             <Navingbar />
-            <ModalMovie />
+           
             <MovieList />
 
         </>
